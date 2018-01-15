@@ -1,10 +1,10 @@
 package com.zch.pattern.structural.bridge;
 
-public class LenovoBrand implements Brand{
+public class DellBrand implements Brand{
 
 	@Override
 	public void sale() {
-		System.out.println("销售联想品牌");
+		System.out.println("销售戴尔品牌");
 	}
 
 }
